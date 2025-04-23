@@ -9,21 +9,25 @@ function Faq() {
 
     const faqItems = [
         {
-            question: "What is netleb? Who is netleb? Why is netleb? How is netleb?",
-            answer: "netleb is netleb. net to the leb is netleb. Before UI was created, there was already netleb. No other question!!"
+            question: "What is Digilab FTUI?",
+            answer: "Digilab FTUI is a digital innovation lab at the Faculty of Engineering, Universitas Indonesia, aimed at fostering creativity and technological advancements."
         },
         {
-            question: "How to apply to netleb?",
-            answer: "Just click the apply button :)"
+            question: "How can I join Digilab FTUI?",
+            answer: "You can join Digilab FTUI by participating in our programs, workshops, or applying through our official website."
         },
         {
-            question: "Is netleb the best?",
-            answer: "Well... that's debatable!"
+            question: "What kind of projects does Digilab FTUI work on?",
+            answer: "Digilab FTUI works on a variety of projects including software development, IoT, AI, and other cutting-edge technologies."
+        },
+        {
+            question: "Who can participate in Digilab FTUI activities?",
+            answer: "Students, faculty members, and industry partners are welcome to participate in Digilab FTUI activities."
         }
     ];
 
     return (
-        <div className="space-y-4 pb-16 sm:pb-24 lg:pb-32">
+        <div id="faq" className="space-y-4 pb-16 sm:pb-24 lg:pb-32 px-2">
             {faqItems.map((item, index) => (
                 <div key={index} className="group border border-gray-100 rounded-md overflow-hidden bg-gray-50 dark:bg-black">
                     <button

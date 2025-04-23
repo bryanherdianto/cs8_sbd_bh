@@ -1,27 +1,31 @@
 import ThemeToggle from './ThemeToggle';
-import logo from '/Logo.svg';
+import Main from '/Main.png';
 
 function Navbar() {
     return (
         <header className="bg-white dark:bg-black sticky top-0 z-50 shadow-md">
             <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
                 <a className="block" href="#">
-                    <img src={logo} alt="" className='size-10' />
+                    <img src={Main} alt="" className='size-10' />
                 </a>
 
                 <div className="flex flex-1 items-center justify-end md:justify-between">
                     <nav aria-label="Global" className="hidden md:block">
                         <ul className="flex items-center gap-6 text-sm">
                             <li>
-                                <a className="text-gray-500 font-semibold transition hover:text-gray-500/75" href="#"> Home </a>
+                                <a className="text-gray-500 font-semibold transition hover:text-gray-500/75" href="#home"> Home </a>
                             </li>
 
                             <li>
-                                <a className="text-gray-500 font-semibold transition hover:text-gray-500/75" href="#"> Our Labs </a>
+                                <a className="text-gray-500 font-semibold transition hover:text-gray-500/75" href="#labs"> Our Labs </a>
                             </li>
 
                             <li>
-                                <a className="text-gray-500 font-semibold transition hover:text-gray-500/75" href="#"> FAQ </a>
+                                <a className="text-gray-500 font-semibold transition hover:text-gray-500/75" href="#faq"> FAQ </a>
+                            </li>
+
+                            <li>
+                                <a className="text-gray-500 font-semibold transition hover:text-gray-500/75" href="#testimony"> Testimony </a>
                             </li>
                         </ul>
                     </nav>

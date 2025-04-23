@@ -3,50 +3,79 @@ import Card from "./components/Card";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import DMJLogo from '/DMJLogo.svg';
-import OSLogo from '/OSLogo.svg';
-import SBDLogo from '/SBDLogo.svg';
+import Daskom from "/Daskom.png"
+import DSD from "/DSD.png"
+import Proglan from "/Proglan.png"
+import SSF from "/SSF.png"
+import PSD from "/PSD.png"
+import IoT from "/IoT.png"
+import Testimonial from "./components/Testimonial";
 
 export default function App() {
   return (
     <div className="flex flex-col bg-white dark:bg-black">
       <Navbar />
       <Header />
-      <div className="flex justify-center text-4xl font-bold pb-5 text-black dark:text-white">
+      <div className="flex justify-center text-4xl font-mono font-bold pb-5 text-black dark:text-white">
         Our Labs
       </div>
-      <div className="mx-auto max-w-screen-xl space-y-4 pb-16 sm:pb-24 lg:pb-32">
+      <div id="labs" className="mx-auto max-w-screen-xl space-y-4 pb-16 sm:pb-24 lg:pb-32 px-2">
         <Card 
-          title="Sistem Basis Data" 
-          subtitle="Covers the fundamentals of relational and non-relational databases through practical implementation in web apps." 
-          author="netleb" 
+          title="Advanced Programming" 
+          subtitle="Covers advanced programming concepts and techniques to enhance your coding skills." 
+          author="Digilab FTUI" 
           date="2024-10-01" 
           duration="29 hours" 
-          img={SBDLogo}
+          img={Proglan}
         />
         <Card 
-          title="Desain Manajemen Jaringan" 
-          subtitle="Learn how to design a network with the large scale by considering aspects of scalability and reliability." 
-          author="netleb" 
+          title="Basic Programming" 
+          subtitle="Introduces the fundamentals of programming, including syntax, logic, and problem-solving." 
+          author="Digilab FTUI" 
           date="2024-10-08" 
           duration="30 hours" 
-          img={DMJLogo}
+          img={Daskom}
         />
         <Card 
-          title="Sistem Operasi" 
-          subtitle="This section contains lab resources for the Operating System class, covering topics such as process management, memory management, file systems, and more." 
-          author="netleb" 
+          title="Fundamentals of Digital System" 
+          subtitle="Explores the basics of digital systems, including logic gates, circuits, and design principles." 
+          author="Digilab FTUI" 
           date="2024-10-15" 
           duration="41 hours" 
-          img={OSLogo}
+          img={DSD}
+        />
+        <Card 
+          title="Digital System Design" 
+          subtitle="Focuses on designing and implementing digital systems with an emphasis on scalability and efficiency." 
+          author="Digilab FTUI" 
+          date="2024-10-15" 
+          duration="41 hours" 
+          img={PSD}
+        />
+        <Card 
+          title="Internet of Things" 
+          subtitle="Covers IoT concepts, including device connectivity, data exchange, and real-world applications." 
+          author="Digilab FTUI" 
+          date="2024-10-15" 
+          duration="41 hours" 
+          img={IoT}
+        />
+        <Card 
+          title="Embedded System" 
+          subtitle="Delves into embedded systems, focusing on hardware-software integration and real-time processing." 
+          author="Digilab FTUI" 
+          date="2024-10-15" 
+          duration="41 hours" 
+          img={SSF}
         />
       </div>
-      <div className="flex justify-center text-4xl font-bold pb-5 text-black dark:text-white">
+      <div className="flex justify-center text-4xl font-mono font-bold pb-5 pt-10 text-black dark:text-white">
         FAQs
       </div>
       <div className="mx-auto max-w-screen-lg">
         <Faq />
       </div>
+      <Testimonial />
       <Footer />
     </div>
   )

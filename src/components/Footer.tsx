@@ -4,12 +4,12 @@ function Footer() {
             <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                     <div>
-                        <div className="text-indigo-600 font-bold text-4xl">
-                            netleb
+                        <div className="text-blue-700 font-bold text-4xl">
+                            Digilab FTUI
                         </div>
 
                         <p className="mt-4 max-w-xs text-gray-500">
-                            A strong lab that has been standing since 1958 to provide reliable education for students.
+                            A strong lab that has been standing since 1998 to provide reliable and cutting-edge education for students.
                         </p>
 
                         <ul className="mt-8 flex gap-6">
@@ -70,7 +70,7 @@ function Footer() {
 
                             <li>
                                 <a
-                                    href="#"
+                                    href="github.com"
                                     rel="noreferrer"
                                     target="_blank"
                                     className="text-gray-700 transition hover:opacity-75"
@@ -95,49 +95,61 @@ function Footer() {
 
                             <ul className="mt-6 space-y-4 text-sm">
                                 <li>
-                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Sistem Basis Data </a>
+                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Fundamentals of Digital System </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Desain Manajemen Jaringan</a>
+                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Digital System Design </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Sistem Operasi </a>
+                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Advanced Programming </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Basic Programming </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Internet of Things </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Embedded System </a>
                                 </li>
                             </ul>
                         </div>
 
                         <div>
-                            <p className="font-medium text-gray-900 dark:text-white">Aslab</p>
+                            <p className="font-medium text-gray-900 dark:text-white">Lab Assistants</p>
 
                             <ul className="mt-6 space-y-2 text-sm">
                                 <li>
-                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> ST </a>
+                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> ED </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> DM </a>
+                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> GI </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> EF </a>
+                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> EZ </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> RY </a>
+                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> PI </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> GG </a>
+                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> NS </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> FZ </a>
+                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> YP </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> IP </a>
+                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> WN </a>
                                 </li>
                             </ul>
                         </div>
@@ -147,15 +159,19 @@ function Footer() {
 
                             <ul className="mt-6 space-y-4 text-sm">
                                 <li>
-                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Hero </a>
+                                    <a href="#home" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Hero </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Our Labs </a>
+                                    <a href="#labs" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Our Labs </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> FAQs </a>
+                                    <a href="#faq" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> FAQs </a>
+                                </li>
+
+                                <li>
+                                    <a href="#testimony" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Testimony </a>
                                 </li>
                             </ul>
                         </div>
@@ -165,22 +181,26 @@ function Footer() {
 
                             <ul className="mt-6 space-y-4 text-sm">
                                 <li>
-                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Question #1 </a>
+                                    <a href="#faq" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Question #1 </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Question #2 </a>
+                                    <a href="#faq" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Question #2 </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Question #3 </a>
+                                    <a href="#faq" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Question #3 </a>
+                                </li>
+
+                                <li>
+                                    <a href="#faq" className="text-gray-700 dark:text-gray-500 transition hover:opacity-75"> Question #4 </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <p className="text-xs text-gray-500">&copy; 2025. netleb. All rights reserved.</p>
+                <p className="text-xs text-gray-500">&copy; 2025. Digilab FTUI. All rights reserved.</p>
             </div>
         </footer>
     )
