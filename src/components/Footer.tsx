@@ -15,7 +15,7 @@ function Footer() {
                         <ul className="mt-8 flex gap-6">
                             <li>
                                 <a
-                                    href="#"
+                                    href="https://facebook.com"
                                     rel="noreferrer"
                                     target="_blank"
                                     className="text-gray-700 transition hover:opacity-75"
@@ -34,7 +34,7 @@ function Footer() {
 
                             <li>
                                 <a
-                                    href="#"
+                                    href="https://instagram.com"
                                     rel="noreferrer"
                                     target="_blank"
                                     className="text-gray-700 transition hover:opacity-75"
@@ -53,7 +53,7 @@ function Footer() {
 
                             <li>
                                 <a
-                                    href="#"
+                                    href="https://twitter.com"
                                     rel="noreferrer"
                                     target="_blank"
                                     className="text-gray-700 transition hover:opacity-75"
@@ -70,7 +70,7 @@ function Footer() {
 
                             <li>
                                 <a
-                                    href="github.com"
+                                    href="https://github.com"
                                     rel="noreferrer"
                                     target="_blank"
                                     className="text-gray-700 transition hover:opacity-75"
